@@ -19,7 +19,7 @@ class Counter extends Component{
     render(){
         return(
             <>
-                <h3>Count value is: {this.state.counter}</h3>
+                <h1>Counter value is: {this.state.counter}</h1>
                 {/* We use the syntax below in order to avoid having to bind the key word this to that specific method within the constructor. */}
                 {/* <button onClick={()=> this.increment()}>Click</button> */}
                 <button onClick={this.increment}>Click</button>
