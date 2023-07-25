@@ -1,8 +1,10 @@
 import {Component} from "react";
 
+// Accessing props for class components is similar to that of functional components BUT we have to use the key word "this"
+
 class Message extends Component{
     render(){
-        return <h1>This is a class component</h1>
+        return <h1>Message: {this.props.messageContent}</h1>
     }
 }
 

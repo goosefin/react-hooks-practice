@@ -6,10 +6,14 @@
     //     <h1>This is accessed by calling {props.children} within ChildComponent</h1>
     // </ChildComponent>
 
+//The code below destructures props so we can access them without having to call them using dot notation
+// const {name, lastName} = props
     
 function Profile(props){
-    console.log(props)
-    return <h1>Name:{props.name} {props.lastName}</h1>
+    // console.log(props)
+    //the code below destructures props so we can access them without having to call them using dot notation
+    const {name, lastName} = props
+    return (<h1>Name:{name} {lastName}</h1>)
 }
 
 export default Profile
