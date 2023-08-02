@@ -1,4 +1,3 @@
-import './App.css';
 import Message from './components/Message';
 import Profile from './components/Profile';
 import Counter from './components/Counter';
@@ -8,6 +7,10 @@ import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
 import Product from './components/Product';
 import Form from './components/Form'
+import FragmentComponent from './components/FragmentComponent';
+import Table from './components/Table';
+import Parent from './components/Parent';
+import Modal from './components/Modal';
 
 function App() {
   return (
@@ -20,7 +23,8 @@ function App() {
     {/* <FunctionalCounter/> */}
     {/* <ConditionalComponent/> */}
     {/* <Product/> */}
-    <Form/>
+    {/* <Form/> */}
+    <Modal/>
     </div>
   );
 }
